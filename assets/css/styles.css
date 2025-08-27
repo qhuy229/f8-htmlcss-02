@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    /* font-family: "Sen", sans-serif; */
+
+    
+}
+
+/* common */
+
+.content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 48px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+color: #FFF;
+text-align: center;
+font-size: 1.6rem;
+font-weight: 600;
+line-height: 2.8rem;
+border-radius: 2.45rem;
+background: #171100;
+display: inline-block;
+padding: 12px 16px;
+min-width: 118px;
+}
+
+/* -------------------------------------------------- */
+
+/* Header */
+
+.header{
+    background: #FFFCF4;
+}
+.header.fixed {
+    position: sticky;
+    top: -28px;
+    z-index: 1;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 36px 0 8px;
+}
+
+.header .nav ul {
+    display: flex;
+}
+
+.header .nav {
+    margin-left: auto;
+    margin-right: 49px;
+}
+
+.header .nav a {
+    color: #5F5B53;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 8px 21px;
+    position: relative;
+}
+
+.header .nav a:hover,
+.header .nav li.active a { 
+    color: #171100;
+    /* font-weight: 600; */
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.nav li.active a::before {
+    content: "";
+    width: 1.2rem;
+    height: 0.2rem;
+    border-radius: 1px;
+    background: #171100;
+    display: inline-block;
+    position: absolute;
+    bottom: 6px;
+    left: 21px;
+}
+
+.signup-btn {
+    min-width: 144px;
+}
+
+
