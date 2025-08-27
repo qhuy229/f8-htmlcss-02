@@ -40,12 +40,20 @@ padding: 12px 16px;
 min-width: 118px;
 }
 
+.btn:hover {
+    opacity: 0.9;
+}
+
+
+
+
 /* -------------------------------------------------- */
 
 /* Header */
 
 .header{
     background: #FFFCF4;
+    padding-bottom: 65px;
 }
 .header.fixed {
     position: sticky;
@@ -98,6 +106,171 @@ min-width: 118px;
 
 .signup-btn {
     min-width: 144px;
+    padding: 1.1rem 4.1rem;
 }
+
+.header .hero {
+    display: flex;
+    margin-top: 64px;
+}
+
+.img-box {
+    width: 50%;
+    padding-right: 100px;  
+    position: relative; 
+}
+
+.img-firstguy {
+    width: 470px;
+    height: 685px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.info {
+    display: inline-block;
+    width: 270px;
+    position: absolute;
+    bottom: 48px;
+    left: 300px;
+    padding: 24px 24px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
+}
+
+.services-list li {
+    display: flex;
+    align-content: center;
+}
+
+.course-quantity {
+    color: #5F5B53;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.list-title {
+    color: #171100;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.services-info {
+    margin-left: 16px;
+    margin-top: 14px;
+}
+
+.hero-section {
+    padding-left: 13rem;
+    
+}
+
+
+.hero-section .title {
+    color: #171100;
+    font-family: "Sen",sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: -1.16px;
+}
+
+.hero-section .desc {
+    color: #5F5B53;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    margin-top: 2.2rem;
+}
+
+.cta-button {
+    margin-top: 38px;
+    min-width: 18rem;
+    height: 6.4rem;
+    border-radius: 3.2rem;
+    background: #FFB900;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3rem;
+    padding: 16px 0;
+}
+
+.cta-button:hover {
+    cursor: pointer;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.video-btn {
+    display: flex;
+    align-items: center;
+    margin-left: 28px;
+}
+
+.play-btn {
+    margin-bottom: -57px;
+}
+
+.watch-video {
+    display: block;
+    margin-top: 38px;
+    padding: 8px 0;
+}
+
+.watch-video:hover {
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+.quantity {
+    margin-top: 48px;
+}
+
+.quantity ul {
+    display: flex;
+}
+
+.info-quantity {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 28px;
+}
+
+.info-quantity div {
+    color: #171100;
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 5.4rem;
+    margin: 8px 10px -2px 0;
+    font-family: "Sen", sans-serif;
+}
+
+
+.info-quantity p {
+    color: #5F5B53;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
 
 
